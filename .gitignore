@@ -1,0 +1,21 @@
+# node
+node_modules
+dist
+.next
+
+# env
+.env
+.env.*
+
+# logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+
+# IDE
+.vscode
+.idea

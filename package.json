@@ -1,0 +1,28 @@
+{
+  "name": "chat-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "echo \"lint will be added later\"",
+    "test": "echo \"tests will be added later\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.1",
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4",
+    "turbo": "^2.7.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@nestjs/swagger": "^11.2.3",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
