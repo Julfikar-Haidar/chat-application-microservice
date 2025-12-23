@@ -1,21 +1,19 @@
-# node
-node_modules
-dist
-.next
+# Dependencies
+node_modules/
+.pnpm-store/
 
-# env
+# Build outputs
+dist/
+.next/
+out/
+
+# Env files
 .env
 .env.*
 
-# logs
-logs
-*.log
+# Logs
 npm-debug.log*
 pnpm-debug.log*
 
 # OS
 .DS_Store
-
-# IDE
-.vscode
-.idea
